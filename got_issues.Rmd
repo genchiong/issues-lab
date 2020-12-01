@@ -11,7 +11,7 @@ library(tidyverse)
 
 ## Step 1: Explring `storms` data
 
-The `storms` data are built-in to the `dplyr` package..
+The `storms` data are built-in to the `dplyr` package.
 
 Get a summary for each variable: 
 ```{r}
@@ -31,7 +31,7 @@ ggplot(data = storms, aes(x = category, y = pressure)) +
               alpha = 0.5,
               aes(color = category),
               show.legend = FALSE) +
-  labs(x = "StorM CategorRY", 
+  labs(x = "Storm Categorry", 
        y = "Air pressure at storm center (millibars)"
        ) +
   theme_void()
